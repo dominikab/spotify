@@ -1,7 +1,7 @@
 $(document).ready( function() {
 	var id;
 	var artist;
-
+	var topTrack;
 
 // use artist id key to inquire for most popular song
 	getArtistId = function (artist) {
@@ -34,11 +34,16 @@ if (howMany>=1){
 		console.log(url)
 		$.getJSON(url,
 			function (data){ 
-				console.log("The top track from "+artist+ " is : "+data.tracks[0].name);
+				topTrack=data.tracks[0].name;
+				console.log("The top track from "+artist+ " is : "+topTrack);
+				showResults(topTrack)
 			})
 	}
 
-
+// show results of the top track search
+	showResults = function (topTrack){
+		$('.search-results').html('<p>'+topTrack+'</p>')
+	}
 
 	$('.artist-name').submit(function(event){
 
