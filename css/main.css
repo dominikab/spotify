@@ -1,0 +1,29 @@
+
+body {
+	background-image:  url('../images/photo-1414073875831-b47709631146.png');
+	//background-image:  url('../images/concert.png');
+	
+//	background-position: center right;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	overflow: auto;
+}
+
+.container {
+	text-align: center;
+	padding-top: 10px;
+	margin-left: 100px;
+//	background-color: gray}
+
+#favorite {
+	width: 300px;
+	height: 20px;
+}
+
+#submit-button {
+	width: 100px;
+	height: 200px;
+}
+
+h2 { font-size: 40px;}
