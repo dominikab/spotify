@@ -12,12 +12,13 @@ body {
 
 .container {
 	text-align: center;
-	padding-top: 10px;
+	padding-top: 20px;
 	margin-left: 100px;
 //	background-color: gray;
 	padding-bottom:450px;}
 
 #favorite {
+
 	width: 300px;
 	height: 20px;
 }
@@ -27,9 +28,11 @@ body {
 	height: 200px;
 }
 
+.logo {text-align: center;}
 h2 { font-size: 40px;
 font-family: 'Lobster', cursive;}
-
+h3 { font-size: 20px;
+font-family: 'Lobster', cursive;}
 
 .search-results {
 	font-size: 20px;
