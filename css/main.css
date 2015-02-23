@@ -14,7 +14,8 @@ body {
 	text-align: center;
 	padding-top: 10px;
 	margin-left: 100px;
-//	background-color: gray}
+//	background-color: gray;
+	padding-bottom:450px;}
 
 #favorite {
 	width: 300px;
@@ -26,4 +27,18 @@ body {
 	height: 200px;
 }
 
-h2 { font-size: 40px;}
+h2 { font-size: 40px;
+font-family: 'Lobster', cursive;}
+
+
+.search-results {
+	font-size: 20px;
+	font-family: 'Lobster', cursive;
+}
+
+.content-footer {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    color : white;
+  }
