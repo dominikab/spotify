@@ -30,7 +30,12 @@ body {
 
 .logo {text-align: center;}
 h2 { font-size: 40px;
-font-family: 'Lobster', cursive;}
+font-family: 'Lobster', cursive;
+text-decoration: none;}
+
+h2:hover,h3:hover{
+	color:darkred;
+}
 h3 { font-size: 20px;
 font-family: 'Lobster', cursive;}
 
